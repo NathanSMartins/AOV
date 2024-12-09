@@ -1,0 +1,70 @@
+
+#banner img{
+
+width:100%;	
+
+}
+
+.slide {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.ssslide img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 60px;
+	height: 58px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+}
+
+.sssprev {
+	left: 3%;
+	background:url(../img/esquerda.png) no-repeat;
+	-webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.sssnext {
+	right: 3%;
+	background:url(../img/direita.png) no-repeat;
+	-webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.sssprev:hover {
+	background:url(../img/esquerda2.png) no-repeat;
+}
+
+.sssnext:hover {
+	background:url(../img/direita2.png) no-repeat;
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+
